@@ -8,7 +8,7 @@ const links = [
     { name: 'Dashboard', href: '/admin/dashboard', icon: '/dashboard-icon.png' },
     { name: 'Profile', href: '/admin/dashboard/profile', icon: '/profile.png' },
     { name: 'Appointments', href: '/admin/dashboard/appointments', icon: '/appointment.png' },
-    { name: 'Settings', href: '/admin/dashboard/settings', icon: '/giftcard-icon.svg' },
+    { name: 'Ambulance', href: '/admin/dashboard/ambulance', icon: '/ambulance.png' },
     { name: 'Signout', href: '/dashboard/manage-admin', icon: '/admin-icon.svg' },
     
       ];
@@ -20,7 +20,7 @@ const Sidebar = () => {
      <div className="w-[20em] h-screen bg-gray-50 shadow-2xl">
         <div>
         <Image
-            src="/logo.svg"
+            src="/icon.jpeg"
             alt="logo" 
             width={250}  
             height={150} 

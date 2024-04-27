@@ -16,7 +16,7 @@ const KycTable = () => {
               Status
             </th>
             <th scope="col" className="px-6 py-3">
-              BVN
+              Field
             </th>
             </tr>
           </thead>
@@ -35,10 +35,10 @@ const KycTable = () => {
 
             <tr  className="border-b bg-white">
               <td className="px-6 py-4 border-r border-l">2</td>
-              <td className="px-6 py-4 border-r">John Bushmill</td>
+              <td className="px-6 py-4 border-r">John Mill</td>
               <td className="px-6 py-4 border-r">
                  <div className='bg-[#faeee5] flex justify-center p-1 rounded-lg'>
-                    <p className='text-[#fae8e5]'>unavailable</p>
+                    <p className='text-red-500'>unavailable</p>
                 </div>
               </td>
               <td className="px-6 py-4 border-r">12345678901</td>

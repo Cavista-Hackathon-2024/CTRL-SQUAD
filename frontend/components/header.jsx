@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <div className="flex pt-8 pl-8 ">
-        <form className="flex items-center  w-[50em] bg-white-100">
+        {/* <form className="flex items-center  w-[50em] bg-white-100">
             <div className="relative  w-full">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3 mr-4 pointer-events-none">
                 <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@ const Header = () => {
                 <img src="/notification.svg" alt="logo" />
             </div> */}
 
-            <span className="border-1 border-gray-900"></span>
+            {/* <span className="border-1 border-gray-900"></span>
 
             <div className="flex ml-10">
                  <img src="/avatar.svg" alt="photo" /> 
@@ -43,6 +43,10 @@ const Header = () => {
             </button>
 
             
+         </div> */} 
+         <div className="flex ml-[22em]  items-center justify-center">
+            <h1 className="text-sky-400 text-[2em] font-bold">AUXUILIUM VALENS ADMIN</h1>
+
          </div>
     </div>
   )

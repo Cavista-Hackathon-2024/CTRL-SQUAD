@@ -45,7 +45,7 @@ const SignUpForm = () => {
 
     <div className="flex items-center shadow-lg justify-center h-screen ">
       <form className="bg-gray-50 shadow-md rounded px-24  pt-12 pb-12 mb-4" onSubmit={handleSubmit}>
-        <h2 className="block text-blue-600 text-2xl font-bold mb-6 text-center">Auxilium Healthcare</h2>
+        <h2 className="block text-blue-600 text-2xl font-bold mb-6 text-center">Auxillium Healthcare</h2>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="firstName">
             First Name
