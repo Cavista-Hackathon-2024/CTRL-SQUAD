@@ -30,7 +30,7 @@ const KycTable = () => {
                     <p className='text-[#44AC21]'>available</p>
                 </div>
               </td>
-              <td className="px-6 py-4 border-r">12345678901</td>
+              <td className="px-6 py-4 border-r">Doctor</td>
             </tr>
 
             <tr  className="border-b bg-white">
@@ -41,12 +41,12 @@ const KycTable = () => {
                     <p className='text-red-500'>unavailable</p>
                 </div>
               </td>
-              <td className="px-6 py-4 border-r">12345678901</td>
+              <td className="px-6 py-4 border-r">Nurse</td>
             </tr>
 
             <tr  className="border-b bg-white">
               <td className="px-6 py-4 border-r border-l">3</td>
-              <td className="px-6 py-4 border-r">John Bushmill</td>
+              <td className="px-6 py-4 border-r">Jo</td>
               <td className="px-6 py-4 border-r">
                  <div className='bg-[#EBFAE5] flex justify-center p-1 rounded-lg'>
                     <p className='text-[#44AC21]'>Verified</p>

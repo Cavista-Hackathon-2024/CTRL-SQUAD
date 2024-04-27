@@ -9,7 +9,6 @@ const links = [
     { name: 'Profile', href: '/admin/dashboard/profile', icon: '/profile.png' },
     { name: 'Appointments', href: '/admin/dashboard/appointments', icon: '/appointment.png' },
     { name: 'Ambulance', href: '/admin/dashboard/ambulance', icon: '/ambulance.png' },
-    { name: 'Signout', href: '/dashboard/manage-admin', icon: '/admin-icon.svg' },
     
       ];
 
