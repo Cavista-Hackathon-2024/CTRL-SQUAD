@@ -1,12 +1,12 @@
 import React from 'react'
-import Features from '@/components/features'
+import Faq from '@/components/faq'
 
 const page = () => {
   return (
     <div>
-    <Features />
+      <Faq />
     </div>
   )
 }
 
-export default page;
+export default page

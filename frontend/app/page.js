@@ -1,11 +1,12 @@
-"use client";
+import React from 'react'
+import HomePage from '@/components/homepage'
 
-import React from "react";
-
-const Page = () => {
+const page = () => {
   return (
-    <div>Page</div>
-  );
-};
+    <div>
+<HomePage />
+    </div>
+  )
+}
 
-export default Page;
+export default page
